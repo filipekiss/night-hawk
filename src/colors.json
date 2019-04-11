@@ -1,0 +1,156 @@
+{
+    "onyx": {
+        "name": "Onyx",
+        "key": "onyx",
+        "hsla": "0, 0%, 6%, 1",
+        "rgba": "15, 15, 15, 1",
+        "hex": "#0f0f0f"
+    },
+    "nero": {
+        "name": "Nero",
+        "key": "nero",
+        "hsla": "0, 0%, 15%, 1",
+        "rgba": "38, 38, 38, 1",
+        "hex": "#262626"
+    },
+    "mineShaft": {
+        "name": "Mine Shaft",
+        "key": "mine-shaft",
+        "hsla": "0, 0%, 23%, 1",
+        "rgba": "59, 59, 59, 1",
+        "hex": "#3a3a3a"
+    },
+    "shipGray": {
+        "name": "Ship Gray",
+        "key": "ship-gray",
+        "hsla": "0, 0%, 30%, 1",
+        "rgba": "77, 77, 77, 1",
+        "hex": "#4d4d4d"
+    },
+    "battleshipGray": {
+        "name": "Battleship Gray",
+        "key": "battleship-gray",
+        "hsla": "0, 0%, 51%, 1",
+        "rgba": "130, 130, 130, 1",
+        "hex": "#828282"
+    },
+    "magnesium": {
+        "name": "Magnesium",
+        "key": "magnesium",
+        "hsla": "0, 0%, 70%, 1",
+        "rgba": "179, 179, 179, 1",
+        "hex": "#b3b3b3"
+    },
+    "gallery": {
+        "name": "Gallery",
+        "key": "gallery",
+        "hsla": "0, 0%, 94%, 1",
+        "rgba": "240, 240, 240, 1",
+        "hex": "#f0f0f0"
+    },
+    "vividTangerine": {
+        "name": "Vivid Tangerine",
+        "key": "vivid-tangerine",
+        "hsla": "15, 90%, 72%, 1",
+        "rgba": "248, 151, 119, 1",
+        "hex": "#f89777"
+    },
+    "chamois": {
+        "name": "Chamois",
+        "key": "chamois",
+        "hsla": "36, 72%, 76%, 1",
+        "rgba": "238, 203, 150, 1",
+        "hex": "#eecb98"
+    },
+    "energyYellow": {
+        "name": "Energy Yellow",
+        "key": "energy-yellow",
+        "hsla": "50, 88%, 66%, 1",
+        "rgba": "245, 219, 92, 1",
+        "hex": "#f5db5e"
+    },
+    "visVis": {
+        "name": "Vis Vis",
+        "key": "vis-vis",
+        "hsla": "51, 91%, 82%, 1",
+        "rgba": "251, 238, 167, 1",
+        "hex": "#fbefa9"
+    },
+    "yellowGreen": {
+        "name": "Yellow Green",
+        "key": "yellow-green",
+        "hsla": "83, 64%, 66%, 1",
+        "rgba": "181, 224, 113, 1",
+        "hex": "#b6e072"
+    },
+    "riptide": {
+        "name": "Riptide",
+        "key": "riptide",
+        "hsla": "169, 58%, 71%, 1",
+        "rgba": "138, 224, 208, 1",
+        "hex": "#8ae0d0"
+    },
+    "aurometalsaurus": {
+        "name": "Aurometalsaurus",
+        "key": "aurometalsaurus",
+        "hsla": "180, 8%, 47%, 1",
+        "rgba": "110, 129, 129, 1",
+        "hex": "#6e8282"
+    },
+    "bermudaGray": {
+        "name": "Bermuda Gray",
+        "key": "bermuda-gray",
+        "hsla": "206, 23%, 52%, 1",
+        "rgba": "104, 136, 161, 1",
+        "hex": "#6a89a1"
+    },
+    "malibu": {
+        "name": "Malibu",
+        "key": "malibu",
+        "hsla": "206, 73%, 65%, 1",
+        "rgba": "101, 174, 231, 1",
+        "hex": "#67b0e7"
+    },
+    "midnight": {
+        "name": "Midnight",
+        "key": "midnight",
+        "hsla": "211, 96%, 9%, 1",
+        "rgba": "1, 22, 45, 1",
+        "hex": "#01162c"
+    },
+    "linkWater": {
+        "name": "Link Water",
+        "key": "link-water",
+        "hsla": "218, 36%, 90%, 1",
+        "rgba": "220, 227, 239, 1",
+        "hex": "#dbe2ee"
+    },
+    "jordyBlue": {
+        "name": "Jordy Blue",
+        "key": "jordy-blue",
+        "hsla": "220, 100%, 78%, 1",
+        "rgba": "143, 180, 255, 1",
+        "hex": "#8db3ff"
+    },
+    "deepKoamaru": {
+        "name": "Deep Koamaru",
+        "key": "deep-koamaru",
+        "hsla": "241, 35%, 30%, 1",
+        "rgba": "51, 50, 103, 1",
+        "hex": "#333268"
+    },
+    "brightUbe": {
+        "name": "Bright Ube",
+        "key": "bright-ube",
+        "hsla": "277, 69%, 77%, 1",
+        "rgba": "206, 156, 237, 1",
+        "hex": "#ce9ced"
+    },
+    "brinkPink": {
+        "name": "Brink Pink",
+        "key": "brink-pink",
+        "hsla": "349, 100%, 69%, 1",
+        "rgba": "255, 97, 126, 1",
+        "hex": "#ff637f"
+    }
+}
