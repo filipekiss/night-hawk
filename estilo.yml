@@ -1,0 +1,17 @@
+# Night Hawk
+# Auto-generated on 2019/04/16 18:24
+
+name: nighthawk
+version: 0.0.0
+license: MIT
+author: Filipe Kiss
+url: https://github.com/filipekiss/night-hawk#readme
+description: Vim Colorscheme
+colorschemes:
+    - name: nighthawk
+      background: 'dark'
+      palette: nighthawk
+lightline:
+    - name: nighthawk
+      palette: nighthawk
+      style: nighthawk
