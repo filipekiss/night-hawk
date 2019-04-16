@@ -1,5 +1,4 @@
-import path from 'path';
-import fs from 'fs-extra';
+import {save, fromRoot} from './utils/file';
 
 import colors from '../colors.json';
 
@@ -29,19 +28,11 @@ colorFormats.forEach(function(format) {
         return printColorFormat(color, format);
     });
 
-    const filePath = path.resolve(
-        __dirname,
-        `../../sass/colors-${format}.scss`
-    );
+    const filePath = fromRoot(`sass/colors-${format}.scss`);
 
     const fileContents = `${colorsHeader}
 ${colorStrings.join('\n')}
 `;
 
-    try {
-        console.log(`Writing file to ${filePath}`);
-        fs.outputFileSync(filePath, fileContents);
-    } catch (e) {
-        console.log(e);
-    }
+    save(filePath, fileContents);
 });
