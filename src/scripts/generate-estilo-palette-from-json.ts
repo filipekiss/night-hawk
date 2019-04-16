@@ -6,7 +6,7 @@ import semanticColors from '../semantic-colors.json';
 export default function exportEstiloPalette() {
     const generationTime = new Date();
     const colorsHeader = `# Night Hawk Palette
-# Ordered by color (Hue, Saturation and Lightness)
+# Ordered alphabetically
 # Auto-generated on ${generationTime
         .toISOString()
         .substring(0, 16)
