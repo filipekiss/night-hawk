@@ -1,0 +1,32 @@
+normal1:         'black lightGray'
+normal2:         'lightestGray darkGray'
+normal3:         'midGray darkGray'
+normal4:         'black lightGray' # normal4 and normal5 are swapped when generated
+normal5:         'midGray darkGray' # normal4 and normal5 are swapped when generated
+normalError:     'black red'
+normalWarning:   'brightYellow midGray'
+inactive1:       'midGray darkestGray'
+inactive2:       'midGray darkestGray'
+inactive3:       'midGray darkestGray'
+inactive4:       'midGray darkestGray'
+inactive5:       'midGray darkestGray'
+insert1:         'black brightYellow'
+insert2:         'lightestGray darkGray'
+insert3:         'midGray darkGray'
+insert4:         'black brightYellow' # normal4 and normal5 are swapped when generated
+insert5:         'midGray darkGray' # normal4 and normal5 are swapped when generated
+replace1:        'black magenta'
+replace2:        'lightestGray darkGray'
+replace3:        'midGray darkGray'
+replace4:        'black magenta' # normal4 and normal5 are swapped when generated
+replace5:        'midGray darkGray' # normal4 and normal5 are swapped when generated
+visual1:         'black blueishGray'
+visual2:         'lightestGray darkGray'
+visual3:         'midGray darkGray'
+visual4:         'black blueishGray' # normal4 and normal5 are swapped when generated
+visual5:         'midGray darkGray' # normal4 and normal5 are swapped when generated
+
+tablineLeft:     'lightestGray darkGray'
+tablineSelected: 'black blueishGray'
+tablineMiddle:   'lightestGray darkGray'
+tablineRight:    'lightestGray darkGray'
