@@ -6,7 +6,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "docs:dev": "parcel src/docs/index.html",
         "docs:build": "parcel build src/docs/index.html --out-dir docs",
-        "colors:generate": "ts-node src/scripts/generate-scss-from-json.ts"
+        "colors:generate": "ts-node src/scripts/generate-colors.ts"
     },
     "repository": {
         "type": "git",
@@ -42,6 +42,7 @@
         "fs-extra": "^7.0.1",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
+        "read-pkg-up": "^5.0.0",
         "styled-components": "^4.2.0"
     }
 }
