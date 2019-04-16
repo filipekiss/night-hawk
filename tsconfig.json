@@ -2,6 +2,11 @@
     "compilerOptions": {
         "resolveJsonModule": true,
         "esModuleInterop": true,
-        "typeRoots": ["./node_modules/@types"]
+        "typeRoots": ["./node_modules/@types"],
+        "plugins": [
+            {
+                "name": "typescript-styled-plugin"
+            }
+        ]
     }
 }
