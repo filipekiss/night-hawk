@@ -1,0 +1,82 @@
+# BASE UI
+ColorColumn: 'brightRed - r'
+Conceal: ''
+Cursor: '- magenta'
+CursorIM: ''
+CursorColumn: '- black'
+CursorLine: '- darkestGray'
+CursorLineNr: 'magenta -'
+Directory: 'blue'
+DiffAdd: ''
+DiffChange: ''
+DiffDelete: ''
+DiffText: ''
+ErrorMsg: ''
+VertSplit: 'gray -'
+Folded: 'foreground background'
+FoldColumn: 'foreground background'
+SignColumn: 'cyan -'
+IncSearch: 'lightestGray darkestGray r'
+LineNr: 'gray -'
+MatchParen: ''
+ModeMsg: ''
+MoreMsg: ''
+NonText: ''
+Normal: ''
+PMenu: '- black'
+PMenuSel: 'blueishGray - r'
+PmenuSbar: 'darkGray'
+PmenuThumb: 'gray'
+Question: ''
+Search: 'brightBlue background r'
+SpecialKey: ''
+SpellBad: ''
+SpellLocal: ''
+SpellCap: ''
+SpellRare: ''
+StatusLine: ''
+StatusLineNC: ''
+TabLine: ''
+TabLineFill: ''
+TabLineSel: ''
+Title: ''
+Visual: ''
+VisualNOS: ''
+WarningMsg: ''
+WildMenu: ''
+# BASE SYNTAX
+Comment: 'midGray - i'
+Constant: 'lightestGray -'
+String: 'yellow -' # Constant
+Character: '@Constant' # Constant
+Boolean: '@Constant' # Constant
+Number: 'red -' # Constant
+Float: '@Constant' # Constant
+Identifier: 'blue -'
+Function: '@Identifier' # Identifier
+Statement: 'magenta -'
+Conditional: '@Statement' # Statement
+Repeat: '@Statement' # Statement
+Label: '@Statement' # Statement
+Operator: 'cyan -' # Statement
+Keyword: '@Operator' # Statement
+Exception: '@Statement' # Statement
+PreProc: 'magenta -'
+Include: '@PreProc' # PreProc
+Define: '@PreProc' # PreProc
+Macro: '@PreProc' # PreProc
+PreCondit: '@PreProc' # PreProc
+Type: 'brightGreen -'
+StorageClass: '@Type' # Type
+Structure: '@Type' # Type
+Typedef: '@Type' # Type
+Special: 'magenta -'
+SpecialChar: '@Special' # Special
+Tag: '@Special' # Special
+Delimiter: '@Special' # Special
+SpecialComment: '@Special' # Special
+Debug: '@Special' # Special
+Underlined: ''
+Ignore: ''
+Error: ''
+Todo: ''
