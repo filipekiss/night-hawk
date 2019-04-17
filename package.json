@@ -5,7 +5,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "docs:dev": "parcel src/docs/index.html",
-        "docs:build": "parcel build src/docs/index.html --out-dir docs",
+        "docs:build": "parcel build src/docs/index.html --out-dir docs --public-url /night-hawk/",
         "colors:generate": "ts-node src/scripts/generate-colors.ts",
         "info:generate": "ts-node src/scripts/generate-info.ts",
         "build": "npm run docs:build && npm run info:generate"
