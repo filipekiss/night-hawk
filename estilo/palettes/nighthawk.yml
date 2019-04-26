@@ -6,31 +6,31 @@
 # ------------------------------------------------------------------------------
 # Last changed
 # ------------
-# 2019/04/26 19:02
+# 2019/04/26 21:21
 # ------------------------------------------------------------------------------
 
-background: '#01162c'
-black: '#0f0f0f'
-blue: '#8db3ff'
-blueishGray: '#6a89a1'
-brightBlack: '#3a3a3a'
-brightBlue: '#67b0e7'
-brightCyan: '#6e8282'
-brightGreen: '#fbefa9'
-brightMagenta: '#333268'
-brightRed: '#ff637f'
-brightWhite: '#f0f0f0'
-brightYellow: '#f5db5e'
-cyan: '#8ae0d0'
-darkGray: '#3a3a3a'
-darkestGray: '#262626'
-foreground: '#b3b3b3'
-gray: '#4d4d4d'
-midGray: '#828282'
-green: '#b6e072'
-lightGray: '#b3b3b3'
-lightestGray: '#dbe2ee'
-magenta: '#ce9ced'
-red: '#f89777'
-white: '#b3b3b3'
-yellow: '#eecb98'
+background: '#01162c' #midnight
+black: '#0f0f0f' #onyx
+blue: '#8db3ff' #jordy-blue
+blueishGray: '#6a89a1' #bermuda-gray
+brightBlack: '#3a3a3a' #mine-shaft
+brightBlue: '#67b0e7' #malibu
+brightCyan: '#6e8282' #aurometalsaurus
+brightGreen: '#fbefa9' #vis-vis
+brightMagenta: '#333268' #deep-koamaru
+brightRed: '#ff637f' #brink-pink
+brightWhite: '#f0f0f0' #gallery
+brightYellow: '#f5db5e' #energy-yellow
+cyan: '#8ae0d0' #riptide
+darkGray: '#3a3a3a' #mine-shaft
+darkestGray: '#262626' #nero
+foreground: '#b3b3b3' #magnesium
+gray: '#4d4d4d' #ship-gray
+midGray: '#828282' #battleship-gray
+green: '#b6e072' #yellow-green
+lightGray: '#b3b3b3' #magnesium
+lightestGray: '#dbe2ee' #link-water
+magenta: '#ce9ced' #bright-ube
+red: '#f89777' #vivid-tangerine
+white: '#b3b3b3' #magnesium
+yellow: '#eecb98' #chamois

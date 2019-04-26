@@ -4,7 +4,7 @@
 " URL: https://github.com/filipekiss/night-hawk#readme
 " Author: Filipe Kiss
 " License: MIT
-" Last Change: 2019/04/26 18:08
+" Last Change: 2019/04/26 18:59
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }

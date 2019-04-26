@@ -6,7 +6,7 @@ import semanticColors from '../semantic-colors.json';
 
 export default function exportEstiloPalette() {
     const printColorFormat = function(colorName, colorObject) {
-        return `${colorName}: '${colorObject.hex}'`;
+        return `${colorName}: '${colorObject.hex}' #${colorObject.key}`;
     };
 
     const colorStrings = Object.entries(semanticColors).map(
