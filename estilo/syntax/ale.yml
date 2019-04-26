@@ -1,0 +1,3 @@
+ALEErrorSign: 'red -'
+ALEWarningSign: 'yellow -'
+ALEInfoSign: 'blueishGray -'

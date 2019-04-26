@@ -4,7 +4,7 @@
 " URL: https://github.com/filipekiss/night-hawk#readme
 " Author: Filipe Kiss
 " License: MIT
-" Last Change: 2019/04/26 16:37
+" Last Change: 2019/04/26 18:00
 " ===============================================================
 
 set background=dark
@@ -14,6 +14,9 @@ if exists("syntax_on")
 endif
 let g:colors_name="nighthawk"
 
+hi ALEErrorSign guifg=#f89777 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ALEWarningSign guifg=#eecb98 ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ALEInfoSign guifg=#6a89a1 ctermfg=67 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ColorColumn guifg=#ff637f ctermfg=204 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi Cursor guifg=NONE ctermfg=NONE guibg=#ce9ced ctermbg=183 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#0f0f0f ctermbg=233 gui=NONE cterm=NONE
