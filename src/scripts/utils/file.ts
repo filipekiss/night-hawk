@@ -19,3 +19,7 @@ export function save(filePath, fileContents) {
         console.log(e);
     }
 }
+
+export function listDir(globPattern: string) {
+    return fs.readdirSync(globPattern);
+}
