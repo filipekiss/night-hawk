@@ -1,18 +1,9 @@
 import {save, fromRoot} from './utils/file';
+import {getTemplates, renderTemplate} from './utils/templates';
 
 import colors from '../colors.json';
 
 export default function exportScssPalette() {
-    const generationTime = new Date();
-    const colorsHeader = `// Night Hawk Palette
-// Ordered by color (Hue, Saturation and Lightness)
-// Auto-generated on ${generationTime
-        .toISOString()
-        .substring(0, 16)
-        .replace('T', ' ')
-        .replace(/\-/g, '/')}
-`;
-
     const printColorFormat = function(color, format) {
         const colorVarName = `$${color.key}:`;
         if (format === 'hex') return `${colorVarName} ${color.hex};`;
@@ -30,10 +21,12 @@ export default function exportScssPalette() {
         );
 
         const filePath = fromRoot(`sass/colors-${format}.scss`);
+        const sassTemplate = fromRoot('src/templates/sass/colors.scss.njk');
+        const data = {
+            colorsList: colorStrings.join('\n'),
+        };
 
-        const fileContents = `${colorsHeader}
-${colorStrings.join('\n')}
-`;
+        const fileContents = renderTemplate(sassTemplate, data);
 
         save(filePath, fileContents);
     });
