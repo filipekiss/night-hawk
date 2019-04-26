@@ -4,7 +4,7 @@
 " URL: https://github.com/filipekiss/night-hawk#readme
 " Author: Filipe Kiss
 " License: MIT
-" Last Change: 2019/04/16 17:52
+" Last Change: 2019/04/26 16:37
 " ===============================================================
 
 set background=dark
@@ -62,6 +62,12 @@ hi link Tag Special
 hi link Delimiter Special
 hi link SpecialComment Special
 hi link Debug Special
+hi StartifySlash guifg=#828282 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifyPath guifg=#828282 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifyHeader guifg=#67b0e7 ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifyFile guifg=#b3b3b3 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifySection guifg=#8db3ff ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifyNumber guifg=#ce9ced ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 
 " ===================================
