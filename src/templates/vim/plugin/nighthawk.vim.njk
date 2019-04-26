@@ -1,0 +1,36 @@
+{% nighthawk_header '"' %}
+
+if exists('g:colors_name') && g:colors_name !=? 'nighthawk'
+  finish
+endif
+
+if exists('g:loaded_nighthawk')
+  finish
+endif
+let g:loaded_nighthawk=1
+
+function s:SetColors()
+  if !exists('g:colors_name') || !exists('g:loaded_nighthawk') || g:colors_name !=? 'nighthawk'
+    return
+  endif
+
+  if !exists('g:nighthawk_inactive')
+    let g:nighthawk_inactive=1
+  endif
+
+  if exists('+winhighlight') && g:nighthawk_inactive == 1
+    hi ActiveWindow guibg=NONE | hi InactiveWindow guibg={{ colors.mineShaft.hex }}
+    set winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
+  endif
+
+  " Put in a background colour for gui
+  if !exists('g:nighthawk_background')
+    let g:nighthawk_background=1
+  endif
+
+endfunction
+
+augroup NightHawkColors
+    autocmd VimEnter,ColorScheme * call s:SetColors()
+augroup END
+

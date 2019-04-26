@@ -8,6 +8,7 @@
         "docs:build": "parcel build src/docs/index.html --out-dir docs --public-url /night-hawk/",
         "colors:generate": "ts-node src/scripts/generate-colors.ts",
         "info:generate": "ts-node src/scripts/generate-info.ts",
+        "vim:generate": "ts-node src/scripts/generate-vim-files.ts",
         "build": "npm run docs:build && npm run info:generate"
     },
     "repository": {
