@@ -28,9 +28,39 @@ function s:SetColors()
     let g:nighthawk_background=1
   endif
 
+  if !has("gui_running") || g:nighthawk_background == 0
+      hi NonText guifg={{ colors.battleshipGray.hex }} ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+      hi Normal guifg={{ colors.magnesium.hex }} ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  endif
+
 endfunction
 
 augroup NightHawkColors
     autocmd VimEnter,ColorScheme * call s:SetColors()
 augroup END
+
+
+" Add colors to terminal vim
+if has('nvim')
+    let g:terminal_color_0='{{ colors.onyx.hex }}' " Black
+    let g:terminal_color_1='{{ colors.vividTangerine.hex }}' " Red
+    let g:terminal_color_2='{{ colors.chamois.hex }}' " Yellow
+    let g:terminal_color_3='{{ colors.yellowGreen.hex }}' " Green
+    let g:terminal_color_4='{{ colors.jordyBlue.hex }}' " Blue
+    let g:terminal_color_5='{{ colors.brightUbe.hex }}' " Magenta
+    let g:terminal_color_6='{{ colors.riptide.hex }}' " Cyan
+    let g:terminal_color_7='{{ colors.magnesium.hex }}' " White
+
+    let g:terminal_color_8='{{ colors.mineShaft.hex }}' " Bright Black
+    let g:terminal_color_9='{{ colors.brinkPink.hex }}' " Bright Red
+    let g:terminal_color_10='{{ colors.energyYellow.hex }}' " Bright Yellow
+    let g:terminal_color_11='{{ colors.visVis.hex }}' " Bright Green
+    let g:terminal_color_12='{{ colors.malibu.hex }}' " Bright Blue
+    let g:terminal_color_13='{{ colors.deepKoamaru.hex }}' " Bright Magenta
+    let g:terminal_color_14='{{ colors.aurometalsaurus.hex }}' " Bright Cyan
+    let g:terminal_color_15='{{ colors.gallery.hex }}' " Bright White
+
+    let g:terminal_color_background=g:terminal_color_8
+    let g:terminal_color_foreground=g:terminal_color_7
+endif
 
