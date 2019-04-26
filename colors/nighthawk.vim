@@ -4,7 +4,7 @@
 " URL: https://github.com/filipekiss/night-hawk#readme
 " Author: Filipe Kiss
 " License: MIT
-" Last Change: 2019/04/26 18:00
+" Last Change: 2019/04/26 18:08
 " ===============================================================
 
 set background=dark
@@ -65,6 +65,21 @@ hi link Tag Special
 hi link Delimiter Special
 hi link SpecialComment Special
 hi link Debug Special
+hi jsonString guifg=#b3b3b3 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link jsonEscape jsonBoolean
+hi link jsonNumber jsonBoolean
+hi link jsonBraces jsonKeyword
+hi jsonNull guifg=#eecb98 ctermfg=222 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonBoolean guifg=#ce9ced ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonKeyword guifg=#8db3ff ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsonNumError guifg=#ff637f ctermfg=204 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link jsonCommentError jsonNumError
+hi link jsonSemicolonError jsonNumError
+hi link jsonTrailingCommaError jsonNumError
+hi link jsonMissingCommaError jsonNumError
+hi link jsonStringSQError jsonNumError
+hi link jsonNoQuotesError jsonNumError
+hi link jsonTripleQuotesError jsonNumError
 hi StartifySlash guifg=#828282 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyPath guifg=#828282 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyHeader guifg=#67b0e7 ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
