@@ -4,7 +4,7 @@
 " URL: https://github.com/filipekiss/night-hawk#readme
 " Author: Filipe Kiss
 " License: MIT
-" Last Change: 2019/04/26 18:59
+" Last Change: 2019/04/26 19:14
 " ============================================================
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
@@ -32,7 +32,7 @@ let s:p.visual.middle = [[["#828282", 8], ["#3a3a3a", 237]]]
 let s:p.visual.right = [[["#0f0f0f", 233], ["#6a89a1", 67]], [["#828282", 8], ["#3a3a3a", 237]]]
 
 let s:p.tabline.left = [[["#dbe2ee", 254], ["#3a3a3a", 237]]]
-let s:p.tabline.tabsel = [[["#0f0f0f", 233], ["#6a89a1", 67]]]
+let s:p.tabline.tabsel = [[["#dbe2ee", 254], ["#6a89a1", 67]]]
 let s:p.tabline.middle = [[["#dbe2ee", 254], ["#3a3a3a", 237]]]
 let s:p.tabline.right = [[["#dbe2ee", 254], ["#3a3a3a", 237]]]
 

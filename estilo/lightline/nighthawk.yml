@@ -27,6 +27,6 @@ visual4:         'black blueishGray' # normal4 and normal5 are swapped when gene
 visual5:         'midGray darkGray' # normal4 and normal5 are swapped when generated
 
 tablineLeft:     'lightestGray darkGray'
-tablineSelected: 'black blueishGray'
+tablineSelected: 'lightestGray blueishGray'
 tablineMiddle:   'lightestGray darkGray'
 tablineRight:    'lightestGray darkGray'
