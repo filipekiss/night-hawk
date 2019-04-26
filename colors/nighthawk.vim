@@ -110,6 +110,36 @@ hi StartifyHeader guifg=#67b0e7 ctermfg=74 guibg=NONE ctermbg=NONE gui=NONE cter
 hi StartifyFile guifg=#b3b3b3 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySection guifg=#8db3ff ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyNumber guifg=#ce9ced ctermfg=183 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link yamlComment Comment
+hi link yamlDocumentStart PreProc
+hi link yamlDocumentEnd PreProc
+hi link yamlDirectiveName Keyword
+hi link yamlTagHandle String
+hi link yamlTagPrefix String
+hi link yamlReservedDirective Error
+hi link yamlYAMLVersion Number
+hi link yamlString String
+hi link yamlFlowString String
+hi link yamlFlowStringDelimiter String
+hi link yamlEscape SpecialChar
+hi link yamlSingleEscape SpecialChar
+hi link yamlBlockCollectionItemStart Label
+hi link yamlBlockMappingKey Identifier
+hi link yamlBlockMappingMerge Special
+hi link yamlFlowMappingKey Identifier
+hi link yamlFlowMappingMerge Special
+hi link yamlMappingKeyStart Special
+hi link yamlFlowIndicator Special
+hi link yamlKeyValueDelimiter Special
+hi link yamlConstant Constant
+hi link yamlNull Constant
+hi link yamlBool Constant
+hi link yamlAnchor Type
+hi link yamlAlias Type
+hi link yamlNodeTag Type
+hi link yamlInteger Number
+hi link yamlFloat Float
+hi link yamlTimestamp Number
 
 
 " ===================================
