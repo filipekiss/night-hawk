@@ -1,0 +1,7 @@
+-   [✓] Make inactive buffers on Vim go gray
+-   [✓] Proper Startify color theme
+-   [ ] Add Vim-Plug colors
+-   [ ] Add JavaScript Syntax
+-   [ ] Add HTML Syntax
+-   [ ] Add TypeScript Syntax
+-   [ ] Add PHP Syntax
