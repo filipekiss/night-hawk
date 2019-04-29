@@ -6,7 +6,7 @@
 
 > Dark colors for Vim and friends.
 
-![Night Hawk Screenshot](https://user-images.githubusercontent.com/48519/56304059-a4e11c80-6113-11e9-8dac-2a365d13a6de.png)
+![Night Hawk Screenshot][screenshot]
 
 ---
 
@@ -18,6 +18,22 @@
 -   iTerm Colors
 
 ---
+
+---
+
+### Syntaxes and Plugins
+
+This is a list of syntax and plugins that have custom color definitions.
+
+| Language | Package     |
+| -------- | ----------- |
+| JSON     | Vim Default |
+| YAML     | Vim Default |
+
+| Plugin   | Packages                                                    |
+| -------- | ----------------------------------------------------------- |
+| ALE      | [w0rp/ale](https://github.com/w0rp/ale)                     |
+| Startify | [mhinz/vim-startify](https://github.com/mhinz/vim-startify) |
 
 ### Installation
 
@@ -86,6 +102,8 @@ Authored and maintained by Filipe Kiss.
 > GitHub [@filipekiss](https://github.com/filipekiss) &nbsp;&middot;&nbsp;
 > Twitter [@filipekiss](https://twitter.com/filipekiss)
 
+[screenshot]:
+    https://user-images.githubusercontent.com/48519/56898553-b9081080-6a67-11e9-900a-e1d53d0b737e.png
 [mit]: http://mit-license.org/
 [1]: https://github.com/fenetikm/falcon
 [2]: https://github.com/sdras/night-owl-vscode-theme
