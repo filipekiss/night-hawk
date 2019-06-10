@@ -18,7 +18,9 @@ export default function exportEstiloPalette() {
     const templates = getTemplates(fromRoot('src/templates/estilo/palettes'));
     saveOutputFile(
         templates,
-        {colorsList: colorStrings.join('\n')},
+        {
+            colorsList: colorStrings.join('\n'),
+        },
         {outDir: fromRoot('estilo/palettes')}
     );
 }
